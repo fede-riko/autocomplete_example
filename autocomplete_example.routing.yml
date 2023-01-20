@@ -1,0 +1,7 @@
+autocomplete_example.autocomplete_cities:
+  path: '/autocomplete_example/cities'
+  defaults:
+    _controller: '\Drupal\autocomplete_example\Controller\AutocompleteExampleController::citiesAutocomplete'
+    _format: json
+  requirements:
+    _permission: 'access content'
