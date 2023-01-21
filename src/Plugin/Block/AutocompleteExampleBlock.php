@@ -63,4 +63,11 @@ class AutocompleteExampleBlock extends BlockBase implements ContainerFactoryPlug
     return $form ?? [];
   }
 
+  /**
+   * @return int
+   */
+  public function getCacheMaxAge() {
+    return 0;
+  }
+
 }
